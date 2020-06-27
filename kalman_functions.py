@@ -145,6 +145,17 @@ class MyKalmanFilter:
 
     def filter(self, X, use_myfilter=False):
         """
+
+        Parameters
+        ----------
+        X :
+        use_myfilter :
+
+        Returns
+        -------
+
+        """
+        """
         Method that performs Kalman filtering
         @param X: a numpy 2D array whose dimension is [n_example, self.n_dim_obs]
         @output: filtered_state_means: a numpy 2D array whose dimension is [n_example, self.n_dim_state]
